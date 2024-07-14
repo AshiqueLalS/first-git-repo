@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+}
+
+.introduction img{
+    
+    width: 100%;
+    border-radius: 20px 150px;
+    margin-top: 50px;
+}
+
+h1 ,p ,h2 ,a, h4{
+    color: white;
+}
+
+i{
+    color:  #e6ff00;
+    font-size:24px;
+}
+
+span{
+    color:  #e6ff00;
+    font-weight: bold;
+}
+.navbar li a{
+    color: #e6ff00;
+    text-decoration: none;
+}
+.navbar ul{
+    display: flex;
+    gap: 130px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar{
+    margin-top: 20px; 
+    font-weight: bold;
+    justify-content: end;
+}
+
+.hello{
+    border-bottom: 1px solid rgb(35, 33, 33);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+.introduction{
+    display: flex;
+    align-items:center ;
+}
+
+.hello h1{
+
+    font-size: 48px;
+}
+
+.hello p{
+    font-size: 20px;
+}
+
+.information p,a{
+    font-size: 20px;
+}
+
+.information a{
+    text-decoration: none;
+    color: white;
+}
+
+.information ul{    
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr ; 
+}
+
+.information li{
+    list-style-type: none;
+}
+
+.line{
+    display: inline;
+}
+
+.developer{
+    display: inline;
+    color: #e6ff00;
+}
+
+.description p{
+    color: #a39393;
+    font-size: 21px;
+}
+.portfolio h2{
+    text-align: center;
+}
+.portfolio p{
+    
+    text-align: center;
+    
+}
+.portfolio {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.inside-portfolio{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(19, 18, 18);
+    gap: 100px;
+}
+.inside-portfolio p{
+    color: #a39393;
+    font-size: 21px;
+    text-align: left;
+
+}
+.inside-portfolio h3{
+    text-align: center;
+    color: white;
+    background-color: #211e1e;
+    border-radius: 10px;
+}
+.skills{
+    margin: 30px;
+}
+.skills h2{
+    text-align: center;
+}
+
+.skills h5{
+    color: white;
+}
+.progress-bar{
+
+    width: 90%;
+}
+.contact h2, h4, p{
+    text-align: center;
+}
+.contact{
+    margin: 30px;
+    background-color: rgb(9, 19, 31);
+    border-radius: 10px;
+}
+.footer {
+    border-top: 1px solid rgb(35, 33, 33);
+   
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    
+    margin-bottom: 0;
+}
+
